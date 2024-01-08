@@ -20,8 +20,8 @@
     color:rgb(226, 43, 214);
     font-weight: 900;
     font-size: 3rem;
-    line-height: 2em;
     text-shadow: 2px 2px 6px white;
+    margin-bottom: 1rem;
 }
 .upper p{
     width: 70%;
