@@ -1,0 +1,120 @@
+.signIn{
+    height:100vh;
+    width: 100%;
+    padding-top: 3.4em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    background-color:brown;
+}
+.signIn .signContainer{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    box-shadow: 5px 5px 15px black;
+    border-radius:1em;
+    text-align: center;
+}
+
+.signContainer h1{
+    margin: 0.5em 0 0 0;
+    color: blue;
+    font-weight: 700;
+    font-size: 2rem;
+    border-bottom: 1px dashed black;
+}
+.signContainer .formContainer{
+    text-align: start;
+}
+.signContainer .form{
+    width: 100%;
+    height: 100%;
+    padding:1em 4em ;
+}
+.signContainer p{
+    color:#646478;
+    font-size: 1em;
+    font-weight:  600;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+.signContainer label{
+    color:chocolate;
+    font-size: 1em;
+}
+.signContainer input{
+    width: 100%;
+    margin-bottom: 0.8em;
+    outline: none;
+    padding: 0.3em 0.4em;
+    background-color: transparent;
+    border: 1px solid gray;
+    font-size: 1em;
+    border-radius: 2px;
+}
+.signContainer .submit{
+    cursor: pointer;
+    margin: 1em 0;
+    color: black;
+    font-weight: 700;
+    width: 100%;
+    padding: 0.3em 0.4em;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 1.2em;
+    background-color: transparent;
+}
+.signContainer .submit:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid transparent;
+}
+.signContainer .signForgot{
+    text-align: end;
+    background-color: transparent;
+    color: blue;
+    font-size:0.7em;
+}
+a{
+    text-decoration: none; 
+}
+h4{
+    color: black;
+    margin-bottom: 1rem;
+}
+.signContainer .signGoogle a{
+    font-size:1.5rem;
+    font-weight: 700;
+}
+sup{
+    color: red;
+}
+
+@media(max-width:1024px){
+    .signIn .signContainer {
+        height:500px;
+        width: 90%;
+        padding:2em ;
+        margin-top:2em ;
+    }
+}
+@media(max-width:477px){
+    .signIn .signContainer {
+        height:auto;
+        padding-top:1em ;
+    }
+    .signIn .signContainer .form {
+        width: 100%;
+        height: 100%;
+        padding: 1em 1em;
+    }
+}
+@media(max-width:376px){
+    .signIn .signContainer .form {
+        padding: 1em 1em;
+    }
+    .signIn .signContainer h1 {
+        margin: 0;
+    }
+}

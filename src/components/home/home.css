@@ -1,0 +1,281 @@
+.home{
+    height: 90vh;
+    width: 100%;
+    color: white;
+}
+.upper{
+    width: 100%;
+    height: auto;
+    background:radial-gradient(circle,rgba(6,10,30,1) 94%, rgba(0,0,0,1) 96%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5em;
+}
+.upper .heading{
+    width: 50%;
+}
+.heading span{
+    color:rgb(226, 43, 214);
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 2em;
+    text-shadow: 2px 2px 6px white;
+}
+.upper p{
+    width: 70%;
+    margin-top: 1rem;
+    color: yellow;
+    font-family: cursive;
+    animation:uperHeadingAnimation 2s;
+    position: relative;
+    text-align: center;
+}
+.heading h3{
+    margin-bottom:1em;
+}
+.upper .image{
+    width: 50%;
+    position: relative;
+    animation: uperImageAnimation 2s;
+}
+.upper .image img{
+    object-fit: contain;
+    width: 100%;
+    height: 68vh;
+    filter: saturate(150%);
+    filter: brightness(150%);
+
+}
+.achievements{
+    height: 30vh;
+    width: 100%;
+    padding:2em 5em;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(81, 56, 56);
+}
+.achievements .achieve{
+    padding: 1em;
+    text-align: center;
+    background-color:rgb(226, 43, 214);
+    box-shadow: 2px 2px 6px black;
+    border-radius:3px ;
+    position: relative;
+}
+.achievements .achieve .icon{
+    position: absolute;
+    top: -15px;
+    margin: auto;
+    color: rgb(226, 43, 214);
+}
+.projects{
+    height:80vh;
+    width: 100%;
+    background-color: rgb(231, 228, 225);
+    color:black;
+    padding: 1em;
+    text-align: center;
+}
+.projects .projectCardContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.projects .projectHeading h2{
+    border-bottom: 1px dashed black;
+    text-shadow: 2px 2px 6px black;
+    margin-bottom: 0.5em; 
+    font-size: 2em;
+    font-weight: 900;
+    color:rgb(226, 43, 214);
+}
+.testimonials{
+    height:70vh;
+    width: 100%;
+    background-color: rgb(231, 228, 225);
+    color:black;
+    padding: 1em;
+    text-align: center;
+}
+.testimonials .singlePeople{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+.testimonials .testimonialContainer .testimonialHeading{
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 2em;
+    border-bottom: 1px dashed black;
+    color: rgb(226, 43, 214);
+    text-shadow: 2px 2px 6px black;
+}
+.homeFooter{
+    width: 100%;
+    padding: 1em;
+    height: 54vh;
+    color: red;
+    background-color: black;
+}
+
+/* ipad responsive */
+@media(max-width:1024px){
+    /* home page */
+    .upper{
+        margin-top: 5em;
+    }
+    .upper .image img{
+        height: auto;
+    }
+    .achievements{
+        height: 15vh;
+        padding:1em;
+    }
+    .projects{
+        height:auto;
+    }
+    .projects .projectCardContainer {
+        flex-wrap: wrap;
+    }
+    .projectCardContainer .projectCard {
+        width: 40%;
+        height: 22em;
+    }
+    .projectCardContainer .projectCard .image img {
+        height: 11em;
+    }
+    .testimonials{
+        height: auto;
+    }
+    .testimonials .people img {
+        position: relative;
+        height: 90px;
+        width: 90px;
+        top: -11px;
+    }
+    .testimonials .people {
+        width: 40%;
+        margin-bottom: 3.5em;
+    }
+    .testimonials .people h1 {
+        margin-top:0;
+    }
+    .homeFooter {
+        height: auto;
+        padding: 2em;
+    }
+    
+}
+
+/* mobile responsive */
+@media(max-width:477px){
+    /* home page */
+    .upper {
+        padding: 2em;
+        width: 100%;
+    }
+    .upper .heading {
+        width: auto;
+        text-align: center;
+    }
+    .upper .heading span{
+        font-size: 1.5rem;
+    }
+    .upper .heading p{
+        width: 100%;
+    }
+    .upper .image {
+        width: auto;
+    }
+    .achievements {
+        height: 30vh;
+        padding: 2em 2em;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 2em;
+    }
+    .achievements .achieve {
+        width: 10em;
+    }
+    .projects .projectHeading h2 {
+        font-size: 2.5em;
+        font-weight: 700;
+        margin: 0.5em 0;
+    }
+    .projectCardContainer .projectCard {
+        width: 100%;
+        height: auto;
+        margin-bottom: 0.6em;
+    }
+    .testimonials .testimonialContainer .testimonialHeading {
+        margin-bottom: 1.5em;
+    }
+    .testimonials .people {
+        height: 18em;
+        width: 48%;
+    }
+    .homeFooter .footer {
+        display: block;
+    }
+    .footer .footerIcon ul {
+        display: flex;
+    }
+    .homeFooter .footer .footerIcon ul li {
+        margin: 0.5em 0.4em;
+    }
+    .homeFooter .footer .footerIcon {
+        width: 100%;
+    }
+    .homeFooter .footer .footerIcon ul li span {
+        padding: 0.2em 0.3em;
+    }
+    .homeFooter .footer .footerMiddle {
+        width: 100%;
+    }
+    .homeFooter .footer .footerRight {
+        width: 100%;
+        text-align: center;
+    }
+  
+}
+@media(max-width:376px){
+    .upper{
+        margin-top: 4em;
+    }
+    
+    .achievements {
+        height: 41vh;
+    }
+    .achievements .achieve {
+        width: 9em;
+    }
+    .testimonials .people {
+        height: 16em;
+        width: 80%;
+    }
+    .testimonials .testimonialContainer .testimonialHeading {
+        font-weight: 700;
+    }
+    .homeFooter .footer .footerIcon ul li {
+        margin: 0.5em 0.2em;
+    }
+}
+
+
+/* animation */
+@keyframes uperImageAnimation {
+    from {right: -600px;}
+    to {right: 0px;}
+  }
+  @keyframes uperHeadingAnimation {
+    from {left: -600px;}
+    to {left: 0px;}
+  }
+
+ 

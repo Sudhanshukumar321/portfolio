@@ -1,0 +1,216 @@
+.contact{
+    padding-top: 4em;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: center;
+    color:black;
+    background-color: burlywood;
+}
+.contactDetails{
+    width: 80%;
+    height: 580px;
+    box-shadow: 5px 5px 15px black;
+}
+.contactDetails .heading{
+    font-size: 0.8em;
+    text-align: center;
+    text-shadow: 2px 2px 5px white;
+    padding: 1em;
+    border-bottom:2px dotted black;
+}
+.details{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1em;
+    height: auto;
+}
+.details .image{
+    margin: 0.5em 0;
+    width: 50%;
+}
+.details .image img{
+    object-fit:fill;
+    width: 400px;
+    height: 85vh;
+}
+.details .form{
+    box-shadow: 5px 5px 15px black;
+    padding: 2em; 
+    width: 50%;
+}
+.details .formHeading{
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: 2em;
+    text-shadow: 2px 2px 5px whitesmoke;
+}
+.details input,textarea{
+    padding: 0.5em ;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+.details .form button{
+    padding: 0.5em;
+    border: 1px solid black;
+    background-color: transparent;
+    font-size: 1em;
+    border-radius: 4px;
+    width: 100%;
+}
+.details .form button:hover{
+    color: white;
+    background-color: red;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.contactDetails .contactFooter{
+    position: fixed;
+    bottom:1.2vh;
+    height: 10vh;
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contactFooter ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 900;
+    list-style: none;
+    margin-bottom: 1em;
+    margin-right: 3.5em;
+}
+.contactFooter ul li a{
+    color: black;
+    text-decoration: none;
+    
+}
+.icon{
+    font-size: 1.2em;
+    margin-right: 0.5em;
+    background-color: white;
+    border-radius: 50%;
+    padding: 0.1em 0.3em;
+    
+}
+.icon:hover{
+    color: red;
+    background-color: transparent;
+}
+.facebook:hover,.linkedin:hover{
+    color: darkblue;
+    background-color: transparent;
+}
+.git:hover{
+    color: black;
+    background-color: transparent;
+}
+
+@media(max-width:1024px){
+    .contact {
+        height: auto;
+        align-items: flex-start;
+        padding-top: 9em;
+    }
+    .contact .contactDetails {
+        width: 90%;
+        height: auto;
+    }
+    .contactDetails .details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contactDetails .details .image {
+        text-align: center;
+        width:100%;
+    }
+    .contactDetails .details .image img {
+        width: 80%;
+        height: 40vh;
+    }
+    .contactDetails .details .form {
+        width: 80%;
+        height: 29em;
+    }
+    .contact .contactDetails .contactFooter {
+        bottom: 5vh;
+        height: 4vh;
+        position: relative;
+        width: 88%;
+        right:3em;
+    }
+}
+
+@media(max-width:477px){
+    .contact {
+        height: 100vh;
+        align-items: center;
+    }
+    .contact {
+        padding-top: 2em;
+    }
+    .contactDetails .details .image img {
+        width: 100%;
+    }
+    .contactDetails .details .image {
+        display: none;
+    }
+    .contactDetails .details .form {
+        width: 100%;
+    }
+    .contact .contactDetails {
+        height: auto;
+        height: 73vh;
+    }
+    .contactDetails .contactFooter {
+        width: 110%;
+        flex-wrap:nowrap;
+        bottom: 6.5vh;
+        height: 4vh;
+        position:relative;
+    }
+    .contact .contactFooter ul {
+        flex-wrap: nowrap;
+        margin-bottom: -8em;
+        margin-right: -4em;
+    }
+}
+@media(max-width:376px){
+    .contactDetails .heading {
+        padding: 0.5em;
+    }
+    .heading h1 {
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+    .contact .contactDetails {
+        height: 86vh;
+        margin-top:3em;
+    }
+    .contactDetails .details .form {
+        height: 27em;
+    }
+    .contact .contactDetails .contactFooter {
+        bottom: 8.5vh;
+    }
+    .contact .contactFooter ul {
+        flex-wrap: nowrap;
+        font-size: 1.1em;
+        margin-bottom: -9em;
+        margin-right: -4.5em;
+    }
+}
