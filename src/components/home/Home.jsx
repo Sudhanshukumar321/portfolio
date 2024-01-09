@@ -48,8 +48,8 @@ export const Home = () => {
         })}
       </section>
       <section className="projects">
+      <h2>#My Latest Projects</h2>
         <div className="projectHeading">
-          <h2>#My Latest Projects</h2>
           <div className="projectCardContainer">
             <ProjectCard />
           </div>
