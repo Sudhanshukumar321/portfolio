@@ -1,6 +1,6 @@
 import React from 'react'
 import {Icon} from '../contact/Icon';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom';
 import { AiOutlineSearch } from 'react-icons/ai';
 import './footer.css';
 
@@ -12,9 +12,10 @@ export const Footer = () => {
            </div>
            <div className="footerMiddle">
                 <h4>About CodeTuber</h4>
-                <Link>Home</Link>
-                <Link>Contact</Link>
-                <Link>Blog</Link>
+                <NavLink to="/">Home</NavLink>
+                <NavLink to="/about">About</NavLink>
+                <NavLink to="/blog">Blog</NavLink>
+                <NavLink to="/contact">Contact</NavLink>
                 <Link>FAQs</Link>
            </div>
            <div className="footerRight">

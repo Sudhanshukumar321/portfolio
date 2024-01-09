@@ -36,6 +36,9 @@
     font-size:1.3em;
     margin-bottom: 1em;
 }
+.footer .footerMiddle a.active{
+    color: red;
+}
 .footer .footerRight{
     width: 40%;
     height: auto;

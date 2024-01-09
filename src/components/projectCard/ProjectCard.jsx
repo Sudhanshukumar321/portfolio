@@ -3,7 +3,7 @@ import { projects } from "./projectData";
 import "./projectCard.css";
 import { Link } from "react-router-dom";
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+import { Navigation, Pagination, A11y,Autoplay } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -18,9 +18,14 @@ export const ProjectCard = () => {
   return (
     <Swiper
       // install Swiper modules
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, Pagination, A11y,Autoplay]}
       spaceBetween={30}
+      // how many slide will show
       slidesPerView={'auto'}
+      autoplay={{
+        delay: 2500,
+        disableOnInteraction: false,
+      }}
       navigation
       pagination={{ clickable: true }}
       // scrollbar={{ draggable: true }}
