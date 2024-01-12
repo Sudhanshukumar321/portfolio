@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    height: 55vh;
     margin: 0.5em;
     cursor: pointer;
 }
@@ -52,4 +52,10 @@ border: 1px solid gray;
     font-size: 0.7em;
     color: rgb(28, 25, 25);
     text-transform: capitalize;
+}
+
+@media(max-width:477px){
+    .main{
+        height: 45vh;
+    }
 }

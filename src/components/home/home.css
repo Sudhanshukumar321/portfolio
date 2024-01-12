@@ -101,7 +101,7 @@
     color:rgb(226, 43, 214);
 }
 .testimonials{
-    height:70vh;
+    height:60vh;
     width: 100%;
     background-color: rgb(231, 228, 225);
     color:black;
@@ -118,7 +118,6 @@
 .testimonials .testimonialContainer .testimonialHeading{
     font-size: 2em;
     font-weight: 900;
-    margin-bottom: 2em;
     border-bottom: 1px dashed black;
     color: rgb(226, 43, 214);
     text-shadow: 2px 2px 6px black;
@@ -160,15 +159,10 @@
     .testimonials{
         height: auto;
     }
-    .testimonials .people img {
-        position: relative;
-        height: 90px;
-        width: 90px;
-        top: -11px;
-    }
+    
     .testimonials .people {
         width: 40%;
-        margin-bottom: 3.5em;
+        /* margin-bottom: 3.5em; */
     }
     .testimonials .people h1 {
         margin-top:0;
@@ -221,12 +215,13 @@
         margin-bottom: 0.6em;
     }
     .testimonials .testimonialContainer .testimonialHeading {
-        margin-bottom: 1.5em;
+        margin-bottom: 0.5em;
     }
-    .testimonials .people {
-        height: 18em;
-        width: 48%;
+    .testimonials .people{
+        height: auto;
+        width: 100%;
     }
+    
     .homeFooter .footer {
         display: grid;
     }
@@ -263,7 +258,7 @@
         width: 9em;
     }
     .testimonials .people {
-        height: 16em;
+        /* height: 16em; */
         width: 80%;
     }
     .testimonials .testimonialContainer .testimonialHeading {

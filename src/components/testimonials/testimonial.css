@@ -1,3 +1,14 @@
+.testmain{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    margin: 0.5em;
+    cursor: pointer; 
+}
+
 .people{
     height:auto;
     width:200px;
@@ -18,8 +29,7 @@
 .people img{
     height: 80px;
     width: 80px;
-    position: absolute;
-    top: -40px;
+    top: 10%;
     border-radius: 50%;
 }
 .people h1{
@@ -34,4 +44,21 @@
 }
 .people p{
     font-size: 0.7em;
+}
+@media(max-width:1025px){
+    .testimonials {
+        height: auto;
+    }
+    .testmain{
+        height: 25vh;
+    }
+    .people img {
+        top: 15%;
+    }
+}
+
+@media(max-width:1477px){
+    .people img {
+        position: unset;
+    }
 }
