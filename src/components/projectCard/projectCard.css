@@ -1,61 +1,60 @@
-.main{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 55vh;
-    margin: 0.5em;
-    cursor: pointer;
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  margin: 0.5em;
+  cursor: pointer;
 }
-.projectCard{
-width: 50%;
-border: 1px solid gray;
+.projectCard {
+  width: 50%;
 }
 /* .projectCard:hover{
     box-shadow: 5px 5px 15px black;
 } */
-.projectCard .image img{
-    width: 100%;
-    height: 25vh;
-    object-fit: cover;
-    border: none;
-    /* border-top-right-radius:  15px;
+.projectCard .image img {
+  width: 100%;
+  height: 25vh;
+  object-fit: cover;
+  border: none;
+  /* border-top-right-radius:  15px;
     border-top-left-radius:  15px; */
 }
-.projectCard .details{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: center;
+.projectCard .details {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
 }
-.projectCard .details h1{
-    font-weight: 800;
-    font-size: 1em;
-    color: rgb(226, 43, 214);
-    text-transform: uppercase;
+.projectCard .details h1 {
+  font-weight: 800;
+  font-size: 1em;
+  text-transform: uppercase;
+  color: rgba(205, 235, 211, 0.791);
 }
-.projectCard .details .tool{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    font-size: 0.8em;
+.projectCard .details .tool {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-size: 0.8em;
 }
-.projectCard .details .tool p{
-    padding-right: 0.5em;
-    color: blue;
-    font-weight: 800;
-    margin: 0.3em 0;
+.projectCard .details .tool p {
+  padding-right: 0.5em;
+  color: blue;
+  font-weight: 800;
+  margin: 0.3em 0;
 }
-.projectCard .details .description{
-    font-size: 0.7em;
-    color: rgb(28, 25, 25);
-    text-transform: capitalize;
+.projectCard .details .description {
+  font-size: 0.7em;
+  color: whitesmoke;
+  text-transform: capitalize;
 }
 
-@media(max-width:477px){
-    .main{
-        height: 45vh;
-    }
+@media (max-width: 477px) {
+  .main {
+    height: 45vh;
+  }
 }

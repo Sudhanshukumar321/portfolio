@@ -75,8 +75,7 @@
 .projects{
     height:80vh;
     width: 100%;
-    background-color: rgb(231, 228, 225);
-    color:black;
+    background-color: rgb(211, 87, 87);
     padding: 1em;
     text-align: center;
 }
@@ -98,15 +97,15 @@
     text-shadow: 2px 2px 6px black;
     font-size: 2em;
     font-weight: 900;
-    color:rgb(226, 43, 214);
+    color:white;
 }
 .testimonials{
     height:60vh;
     width: 100%;
-    background-color: rgb(231, 228, 225);
     color:black;
     padding: 1em;
     text-align: center;
+    background-color: tomato;
 }
 .testimonials .singlePeople{
     display:flex;
@@ -118,8 +117,8 @@
 .testimonials .testimonialContainer .testimonialHeading{
     font-size: 2em;
     font-weight: 900;
-    border-bottom: 1px dashed black;
-    color: rgb(226, 43, 214);
+    border-bottom: 1px dashed white;
+    color: white;
     text-shadow: 2px 2px 6px black;
 }
 .homeFooter{

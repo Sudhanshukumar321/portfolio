@@ -16,6 +16,7 @@ import "swiper/css";
 export const Testimonial = () => {
   
     return (
+     
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination,Autoplay, A11y]}
