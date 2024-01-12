@@ -9,6 +9,7 @@
 }
 .projectCard {
   width: 50%;
+  border: 1px solid whitesmoke;
 }
 /* .projectCard:hover{
     box-shadow: 5px 5px 15px black;
@@ -29,7 +30,7 @@
 }
 .projectCard .details h1 {
   font-weight: 800;
-  font-size: 1em;
+  font-size: 1.5em;
   text-transform: uppercase;
   color: rgba(205, 235, 211, 0.791);
 }
