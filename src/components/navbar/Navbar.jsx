@@ -3,12 +3,13 @@ import "./navbar.css";
 import { NavLink, Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { ImCancelCircle } from "react-icons/im";
+import toast from "react-hot-toast";
 
 const Navbar = ({ isLoggedIn, setIsLoggedIn }) => {
   const [showSidebar, setShowSideBar] = useState(false);
   
   const signedOutHandler = () => {
-    alert("Signed Out Successfully");
+    toast.success("Signed Out Successfully");
     setIsLoggedIn(false);
   }
 

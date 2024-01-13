@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 export const SignIn = ({ setIsLoggedIn }) => {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ export const SignIn = ({ setIsLoggedIn }) => {
   };
   const submitData = (event) => {
     event.preventDefault();
-    alert(`Hii ${formData.email} welcome to Dashboard`);
+    toast.success(`Hii ${formData.email.split("@")[0]}, welcome to Dashboard`);
     setIsLoggedIn(true);
     navigate("/dashboard");
   };

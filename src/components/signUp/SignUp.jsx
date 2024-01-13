@@ -3,6 +3,7 @@ import "./signUp.css";
 import { Link, useNavigate } from "react-router-dom";
 import {FcGoogle} from 'react-icons/fc';
 import {useState} from 'react';
+import toast from "react-hot-toast";
 
 export const SignUp = ({setIsLoggedIn}) => {
 
@@ -20,10 +21,10 @@ export const SignUp = ({setIsLoggedIn}) => {
   const submitData = (event) =>{
     event.preventDefault();
       if(formData.createPassword !== formData.confirmPassword){
-        alert("Create Password and Confirm Password should be Same");
+        toast.error("Create Password and Confirm Password should be Same")
         return;
       }
-    alert("Account is Created");
+      toast.success("Account is Created")
     setIsLoggedIn(false);
     navigate("/");
     // console.log(formData)

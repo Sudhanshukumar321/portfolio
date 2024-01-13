@@ -2,11 +2,13 @@ import React from "react";
 import "./contact.css";
 
 import { Icon } from "./Icon";
+import toast from "react-hot-toast";
 
 const Contact = () => {
 
-  const submitMessage = () =>{
-    alert('Thanks for Your Message');
+  const submitMessage = (e) =>{
+    e.preventDefault();
+    toast.success('Thanks for Your Message');
   }
   return (
     <div className="contact">
