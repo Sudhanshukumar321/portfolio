@@ -32,4 +32,28 @@ export const projects = [
         source:"#",
         description:'This is a simple Calculator in which you can do almost all basic operations such addition, subtraction, multiplication, division etc.',
     },
+    {
+        id:'5',
+        image:'',
+        title:'Blog Management Tool',
+        tools:["Ejs","Tailwind","Node.js"],
+        source:"#",
+        description:'This is a Blog Management tool in which you can share your blogs and see others blogs or posts',
+    },
+    {
+        id:'6',
+        image:'',
+        title:'Portfolio 2',
+        tools:["react","Tailwind"],
+        source:"#",
+        description:'This is my 2nd portfolio design page',
+    },
+    {
+        id:'7',
+        image:'',
+        title:'Food recipes page',
+        tools:["Html","CSS","Js"],
+        source:"#",
+        description:'NA',
+    },
 ];

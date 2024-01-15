@@ -26,5 +26,26 @@ export const peoples = [
         name:'suryansh shukla',
         role:'Web Developer',
         comments:'jsfd df sdjfklsdkksad sdflk  jfjk dsfds df  retret sa dfg dgf dffg sd sdf dfg s sdf dfg gf s fds rth er d tt df dsf df dfg fgg df er df dfgsdfgds dsffg dsfgdsf dsff d hg df ds tt',
+    },
+    {
+        id:'5',
+        image:'',
+        name:'prasant',
+        role:'Web Designer',
+        comments:'jsfd df sdjfklsdkksad sdflk  jfjk dsfds df  retret sa dfg dgf dffg sd sdf dfg s sdf dfg gf s fds rth er d tt df dsf df dfg fgg df er df dfgsdfgds dsffg dsfgdsf dsff d hg df ds tt',
+    },
+    {
+        id:'6',
+        image:'',
+        name:'Sujal pandey',
+        role:'App Developer',
+        comments:'jsfd df sdjfklsdkksad sdflk  jfjk dsfds df  retret sa dfg dgf dffg sd sdf dfg s sdf dfg gf s fds rth er d tt df dsf df dfg fgg df er df dfgsdfgds dsffg dsfgdsf dsff d hg df ds tt',
+    },
+    {
+        id:'7',
+        image:'',
+        name:'Ujjawal',
+        role:'web Developer',
+        comments:'jsfd df sdjfklsdkksad sdflk  jfjk dsfds df  retret sa dfg dgf dffg sd sdf dfg s sdf dfg gf s fds rth er d tt df dsf df dfg fgg df er df dfgsdfgds dsffg dsfgdsf dsff d hg df ds tt',
     }
 ];

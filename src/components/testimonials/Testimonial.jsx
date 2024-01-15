@@ -38,7 +38,7 @@ export const Testimonial = () => {
             <SwiperSlide>
               <div className="testmain">
                 <div className="people" key={people.id}>
-                  <img src={people.image} alt="" />
+                  <img src={people.image} alt="image" />
                   <h1>{people.name}</h1>
                   <h3>{people.role}</h3>
                   <p>{people.comments}</p>
