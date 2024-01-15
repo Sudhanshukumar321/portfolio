@@ -51,10 +51,10 @@ const Contact = () => {
             <button>Send</button>
           </form>
         </div>
-        <div className="contactFooter">
+      </div>
+      <div className="contactFooter">
           <Icon/>
         </div>
-      </div>
     </div>
   );
 };

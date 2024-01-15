@@ -38,7 +38,7 @@ export const SignUp = ({setIsLoggedIn}) => {
           <div className="fullName">
             <div className="first">
               <label htmlFor="firstName">First Name<sup>*</sup></label>
-              <br />
+              
               <input
                 required
                 type="text"
@@ -50,7 +50,7 @@ export const SignUp = ({setIsLoggedIn}) => {
             </div>
             <div className="last">
               <label htmlFor="lastName">Last Name<sup>*</sup></label>
-              <br />
+              
               <input
                 required
                 type="text"
@@ -61,15 +61,14 @@ export const SignUp = ({setIsLoggedIn}) => {
               />
             </div>
           </div>
-          <br />
-          <label htmlFor="email">Email Address<sup>*</sup></label><br />
+          <label htmlFor="email">Email Address<sup>*</sup></label>
           <input type="text" className="email" placeholder="Enter email address" name="email" value={formData.email}
-                onChange={changeHandler} required/><br />
+                onChange={changeHandler} required/>
           
           <div className="password">
             <div className="create">
               <label htmlFor="createPassword">Create Password<sup>*</sup></label>
-              <br />
+              
               <input
                 required
                 type="password"
@@ -81,7 +80,7 @@ export const SignUp = ({setIsLoggedIn}) => {
             </div>
             <div className="confirm">
               <label htmlFor="confirmPassword">Confirm Password<sup>*</sup></label>
-              <br />
+              
               <input
                 required
                 type="password"
@@ -94,7 +93,7 @@ export const SignUp = ({setIsLoggedIn}) => {
           </div>
 
           <button id="submit">Create Account</button>
-          <br />
+          
         </form>
         <h4>OR</h4>
         <div className="google">
