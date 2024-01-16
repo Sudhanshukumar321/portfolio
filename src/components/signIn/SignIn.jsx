@@ -24,6 +24,8 @@ export const SignIn = ({ setIsLoggedIn }) => {
     event.preventDefault();
     toast.success(`Hii ${formData.email.split("@")[0]}, welcome to Dashboard`);
     setIsLoggedIn(true);
+    // Set Item to session storage
+    localStorage.setItem("lastname", formData.email.split('@')[0]);
     navigate("/dashboard");
   };
 
@@ -39,7 +41,7 @@ export const SignIn = ({ setIsLoggedIn }) => {
             </label>
             <br />
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="Enter email address"
               value={formData.email}
@@ -69,9 +71,11 @@ export const SignIn = ({ setIsLoggedIn }) => {
         </div>
         <h4>OR</h4>
         <div className="signGoogle">
-          <p><Link to="#">
-            <FcGoogle /> Sign in with Google
-          </Link></p>
+          <p>
+            <Link to="#">
+              <FcGoogle /> Sign in with Google
+            </Link>
+          </p>
         </div>
       </div>
     </div>
