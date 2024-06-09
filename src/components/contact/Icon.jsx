@@ -14,10 +14,10 @@ import "./contact.css";
 export const Icon = () => {
   return (
     <>
-      <ul>
+      <ul className='fs-5'>
             <li>
-              <Link to="#">
-                <a href="tel:7739058330">
+              <Link to="#" >
+                <a href="tel:7739058330" className='text-white'>
                   <span className="icon call">
                     <BiPhoneCall />
                   </span>
@@ -26,7 +26,7 @@ export const Icon = () => {
             </li>
             <li>
               <Link to="#">
-                <a href="mailto:sudhanshukush321@gmail.com">
+                <a href="mailto:sudhanshukush321@gmail.com" className='text-danger'>
                   <span className="icon mail">
                     <HiOutlineMail />
                   </span>
@@ -34,7 +34,7 @@ export const Icon = () => {
               </Link>
             </li>
             <li>
-              <Link
+              <Link className='text-danger'
                 to="https://instagram.com/sudhanshukush321?igshid=ZDc4ODBmNjlmNQ==">
                 <span className="icon instagram">
                   <BsInstagram />
@@ -49,7 +49,7 @@ export const Icon = () => {
               </Link>
             </li>
             <li>
-              <Link to="https://github.com/Sudhanshukumar321">
+              <Link className='text-white' to="https://github.com/Sudhanshukumar321">
                 <span className="icon git">
                   <AiOutlineGithub />
                 </span>
@@ -63,7 +63,7 @@ export const Icon = () => {
               </Link>
             </li>
             <li>
-              <Link to="#" >
+              <Link className='text-danger' to="#" >
                 <span className="icon youtube">
                   <AiOutlineYoutube/>
                 </span>

@@ -124,7 +124,7 @@
 .homeFooter{
     width: 100%;
     padding: 1em;
-    height: 54vh;
+    height: auto;
     color: red;
     background-color: black;
 }
@@ -221,11 +221,11 @@
         width: 100%;
     }
     
-    .homeFooter .footer {
-        display: grid;
-    }
+   
     .footer .footerIcon ul {
         display: flex;
+        justify-content: center;
+        padding: 0;
     }
     .homeFooter .footer .footerIcon ul li {
         margin: 0.5em 0.4em;
@@ -233,9 +233,7 @@
     .homeFooter .footer .footerIcon {
         width: 100%;
     }
-    .homeFooter .footer .footerIcon ul li span {
-        padding: 0.2em 0.3em;
-    }
+
     .homeFooter .footer .footerMiddle {
         width: 100%;
     }
@@ -263,12 +261,13 @@
     .testimonials .testimonialContainer .testimonialHeading {
         font-weight: 700;
     }
-    .homeFooter .footer .footerIcon ul li {
-        margin: 0.5em 0.2em;
-        background-color: black;
-    }
+    
     .homeFooter .footer .footerIcon ul li span{
         background-color: black;
+    }
+    .homeFooter .footer .footerIcon ul{
+        padding: 0;
+        margin: 0;
     }
 }
 
