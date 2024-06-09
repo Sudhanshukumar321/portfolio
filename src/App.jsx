@@ -19,6 +19,8 @@ import PrivateRoute from "./components/privateRouter/PrivateRouter";
 import { BlogContext } from "./context/BlogContext"; 
 import { useEffect,useContext } from "react";
 
+// bootstrap
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
 function App() {
 

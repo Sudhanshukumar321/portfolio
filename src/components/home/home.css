@@ -265,6 +265,10 @@
     }
     .homeFooter .footer .footerIcon ul li {
         margin: 0.5em 0.2em;
+        background-color: black;
+    }
+    .homeFooter .footer .footerIcon ul li span{
+        background-color: black;
     }
 }
 
