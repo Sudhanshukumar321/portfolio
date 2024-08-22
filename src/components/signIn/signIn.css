@@ -86,6 +86,7 @@ h4{
 .signContainer .signGoogle a{
     font-size:1.5rem;
     font-weight: 700;
+    text-decoration: none;
 }
 sup{
     color: red;
@@ -95,7 +96,7 @@ sup{
     .signIn .signContainer {
         height:500px;
         width: 90%;
-        padding:2em ;
+        padding:2em 0;
         margin-top:2em ;
     }
 }
@@ -103,6 +104,9 @@ sup{
     .signIn .signContainer {
         height:auto;
         padding-top:1em ;
+    }
+    .signIn .signContainer .form .signInButton button,.signIn .signContainer .form .signForgot{
+        width: 100%;
     }
     .signIn .signContainer .form {
         width: 100%;

@@ -10,11 +10,12 @@ import {
 import { BiPhoneCall } from "react-icons/bi";
 import { HiOutlineMail } from "react-icons/hi";
 import "./contact.css";
+import './icon.css';
 
 export const Icon = () => {
   return (
     <>
-      <ul className='fs-5'>
+      <ul className='fs-5 list-style-none'>
             <li>
               <Link to="#" >
                 <a href="tel:7739058330" className='text-white'>

@@ -21,6 +21,7 @@ import { useEffect,useContext } from "react";
 
 // bootstrap
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
+// import { Footer } from './components/home/Footer';
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
           <Route path="*" element={<PageNotFound />} />
         </Route>
       </Routes>
+      {/* <Footer/> */}
     </div>
   );
 }

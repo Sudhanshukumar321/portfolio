@@ -1,0 +1,8 @@
+.contactFooter li{
+    list-style: none;
+    margin-right: 0.1rem;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem 0.7rem;
+    border-radius: 50%;
+    background-color: red;
+}
