@@ -29,7 +29,7 @@
   .social ul {
     list-style-type: none;
     padding: 0;
-    transform: translatex(-245px);
+    transform: translatex(-265px);
   }
   
   .social ul li {
@@ -44,7 +44,7 @@
   }
   
   .social ul li:hover {
-    transform: translatex(60px);
+    transform: translatex(85px);
   }
   
   .social ul li.call:hover {
@@ -77,8 +77,10 @@
   }
   
   .social ul li i {
+    display: inline-block;
+    line-height: 1;
     text-align: center;
-    margin-left: 14px;
+    margin-left: 2px;
     color: #293462;
     background-color: white;
     padding: 10px;

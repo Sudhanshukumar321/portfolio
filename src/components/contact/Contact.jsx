@@ -1,7 +1,6 @@
 import React from "react";
 import "./contact.css";
 
-import { Icon } from "./Icon";
 import toast from "react-hot-toast";
 import { BiPhoneCall } from "react-icons/bi";
 import { BsInstagram } from "react-icons/bs";
@@ -12,7 +11,7 @@ import {
   AiOutlineYoutube,
 } from "react-icons/ai";
 import { HiOutlineMail } from "react-icons/hi";
-import { AiOutlineWhatsApp } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   const submitMessage = (e) => {
@@ -70,7 +69,7 @@ const Contact = () => {
                     />
                   </div>
                   <div class="col-md-12 mb-2">
-                    <label for="textMessage" class="form-label">
+                    <label htmlFor="textMessage" class="form-label">
                       Message
                     </label>
                     <sup>*</sup>
@@ -79,11 +78,12 @@ const Contact = () => {
                       required
                       id="textMessage"
                       rows="3"
+                      placeholder="Messages"
                     ></textarea>
                   </div>
                   <div class="col-12">
                     <button type="submit" class="btn btn-outline-primary w-100">
-                      Send
+                      Send Message
                     </button>
                   </div>
                 </form>
@@ -102,7 +102,7 @@ const Contact = () => {
               </a>
             </li>
             <li class="google-plus">
-              <a href="mailto:info@legaltax.in">
+              <a href="mailto:info@legaltax.in" target="_blank" rel="noreferrer">
                 Mail
                 <i>
                   <HiOutlineMail />
@@ -110,7 +110,7 @@ const Contact = () => {
               </a>
             </li>
             <li class="instagram">
-              <a href="https://instagram.com/sudhanshukush321?igshid=ZDc4ODBmNjlmNQ==">
+              <a href="https://instagram.com/sudhanshukush321?igshid=ZDc4ODBmNjlmNQ==" target="_blank" rel="noreferrer">
                 Instagram
                 <i>
                   <BsInstagram />
@@ -118,7 +118,7 @@ const Contact = () => {
               </a>
             </li>
             <li class="facebook">
-              <a href="https://www.facebook.com/sudhanshukush321">
+              <a href="https://www.facebook.com/sudhanshukush321" target="_blank" rel="noreferrer">
                 Facebook
                 <i>
                   <AiOutlineFacebook />
@@ -126,7 +126,7 @@ const Contact = () => {
               </a>
             </li>
             <li class="github">
-              <a href="https://github.com/Sudhanshukumar321" target="_blank">
+              <a href="https://github.com/Sudhanshukumar321" target="_blank" rel="noreferrer">
                 Github
                 <i>
                   <AiOutlineGithub />
@@ -134,20 +134,20 @@ const Contact = () => {
               </a>
             </li>
             <li class="linkedin">
-              <a href="https://www.linkedin.com/in/sudhanshu-kumar-7a6102214">
+              <a href="https://www.linkedin.com/in/sudhanshu-kumar-7a6102214" target="_blank" rel="noreferrer">
                 Linkedin
                 <i>
                   <AiOutlineLinkedin />
-                </i>
-              </a>
+                </i> 
+              </a> 
             </li>
-            <li class="youtube">
-              <a href="#">
-                Mail
+            <li class="youtube"> 
+              <Link href="/" >
+                Youtube
                 <i>
                   <AiOutlineYoutube />
                 </i>
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>

@@ -102,7 +102,7 @@ function CollapsibleExample({ isLoggedIn, setIsLoggedIn }) {
   return (
     <Navbar collapseOnSelect expand="lg" className="navbar fixed-top">
       <Container>
-        <Navbar.Brand href="#home" style={{textShadow: "2px 2px 6px white"}}>SKG</Navbar.Brand>
+        <Navbar.Brand href="/" style={{textShadow: "2px 2px 6px white"}}>SKG</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
           <Nav className="gap-4">
