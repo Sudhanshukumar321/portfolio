@@ -1,4 +1,4 @@
-import Navbar from './components/navbar/Navbar';
+import NavScrollExample from './components/navbar/Navbar';
 import './App.css';
 //if you export the component as not a default then use the curly bracket.
 //(home is export as non-default that's why curly bracket is used)
@@ -34,7 +34,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
+      <NavScrollExample isLoggedIn={isLoggedIn} setIsLoggedIn={setIsLoggedIn}/>
 
       <Routes>
         <Route path="/" element={<MainRoute />}>

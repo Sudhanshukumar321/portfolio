@@ -1,13 +1,13 @@
 import React from "react";
-import { TypeAnimation } from 'react-type-animation';
-
+import { TypeAnimation } from "react-type-animation";
 import { achievements } from "./achievements";
 import { ProjectCard } from "../projectCard/ProjectCard";
 import { Testimonial } from "../testimonials/Testimonial";
-import {Footer} from './Footer';
+import { Footer } from "./Footer";
 
 import "./home.css";
-
+import { Skills } from "../skills/Skills";
+import { Col, Container, Row } from "react-bootstrap";
 
 export const Home = () => {
   return (
@@ -15,18 +15,18 @@ export const Home = () => {
       <section className="upper">
         <div className="heading">
           <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'I\'m sudhanshu kumar',
-        1000,
-        'I\'m a web Developer',
-        1000
-      ]}
-      wrapper="span"
-      speed={10}
-      style={{ display: 'inline-block' }}
-      repeat={Infinity}
-    />
+            sequence={[
+              // Same substring at the start will only be typed out once, initially
+              "I'm sudhanshu kumar",
+              1000,
+              "I'm a web Developer",
+              1000,
+            ]}
+            wrapper="span"
+            speed={10}
+            style={{ display: "inline-block" }}
+            repeat={Infinity}
+          />
           <p>
             Welcome to my web development journey! <br /> My name is Sudhanshu
             Kumar, and I'm thrilled to have you visit my webpage.
@@ -37,7 +37,7 @@ export const Home = () => {
         </div>
       </section>
       <section className="achievements">
-        {achievements.map((data, index) => {
+        {/* {achievements.map((data, index) => {
           return (
             <div key={index} className="achieve">
               <h1 className="icon">{data.icon}</h1>
@@ -45,10 +45,16 @@ export const Home = () => {
               <h2>{data.name}</h2>
             </div>
           );
-        })}
+        })} */}
+        <Container>
+          <Row>
+            <Col>
+            <Skills/>
+            </Col>
+          </Row>
+        </Container>
       </section>
       <section className="projects">
-      <h2>#My Latest Projects</h2>
         <div className="projectHeading">
           <div className="projectCardContainer">
             <ProjectCard />
@@ -66,9 +72,8 @@ export const Home = () => {
       </section>
 
       <section className="homeFooter">
-        <Footer/>
+        <Footer />
       </section>
     </div>
   );
 };
-

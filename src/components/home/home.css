@@ -1,3 +1,4 @@
+
 .home{
     height: 90vh;
     width: 100%;
@@ -6,7 +7,8 @@
 .upper{
     width: 100%;
     height: auto;
-    background:radial-gradient(circle,rgba(6,10,30,1) 94%, rgba(0,0,0,1) 96%);
+    /* background:radial-gradient(circle,rgba(6,10,30,1) 94%, rgba(0,0,0,1) 96%); */
+    background: url('/public/image/banner-bg.png');
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -46,19 +48,33 @@
     height: 68vh;
     filter: saturate(150%);
     filter: brightness(150%);
-
+    animation: updown 3s linear infinite;
+}
+@keyframes updown{
+    0%{
+        transform: translateY(-20px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(-20px);
+    }
 }
 .achievements{
-    height: auto;
+    height: 500px;
     width: 100%;
-    padding:2em 5em;
+    padding:2em 2em;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
-    justify-content: space-around;
-    background-color: rgb(81, 56, 56);
+    justify-content: center;
+    background-image: url('/public/image/skill-bg.webp');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
-.achievements .achieve{
+/* .achievements .achieve{
     padding: 1em;
     text-align: center;
     background-color:rgb(226, 43, 214);
@@ -71,7 +87,7 @@
     top: -28px;
     margin: auto;
     color: white;
-}
+} */
 .projects{
     height:80vh;
     width: 100%;
@@ -133,7 +149,7 @@
 @media(max-width:1024px){
     /* home page */
     .upper{
-        margin-top: 4em;
+        margin-top: 3.5em;
     }
     .upper .image img{
         height: auto;
@@ -194,18 +210,18 @@
         width: auto;
     }
     .achievements {
-        height: 30vh;
+        height: 65vh;
         padding: 2em 2em;
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap: 2em;
     }
-    .achievements .achieve {
+    .react-multi-carousel-list {
+        position: unset;
+    }
+    /* .achievements .achieve {
         width: 10em;
     }
     .achievements .achieve .icon{
         top: -18px;
-    }
+    } */
     .projects .projectHeading h2 {
         font-size: 2.5em;
         font-weight: 700;

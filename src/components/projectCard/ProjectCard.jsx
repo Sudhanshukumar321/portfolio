@@ -3,7 +3,7 @@ import { projects } from "./projectData";
 import "./projectCard.css";
 import { Link } from "react-router-dom";
 // import Swiper core and required modules
-import { Navigation, Pagination, A11y,Autoplay } from "swiper/modules";
+import { Navigation, Pagination, A11y, Autoplay } from "swiper/modules";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -59,5 +59,47 @@ export const ProjectCard = () => {
         );
       })}
     </Swiper>
+
+    // <div class="section">
+    //   <div class="content-wrap">
+    //     <div class="container">
+    //       <div class="row">
+    //         <div class="col-sm-12 col-md-12">
+    //           <h2 class="section-heading text-primary mb-5">Latest Projects</h2>
+    //         </div>
+    //       </div>
+
+    //       <div class="row ">
+    //         <div class="col-sm-12 col-md-12 col-lg-4">
+    //           <div class="feature-box-7 shadow">
+    //             <div class="media-box">
+    //               <a href="content-writing.php">
+    //                 <img
+    //                   src="/image/m-100.jpg"
+    //                   alt=""
+    //                   class="img-fluid"
+    //                 />
+    //               </a>
+    //             </div>
+    //             <div class="body">
+    //               <div class="info-box">
+    //                 <div class="text">
+    //                   <div class="title">Content Writing</div>
+    //                   <a
+    //                     href="#"
+    //                     class="btn btn-secondary"
+    //                     title="Get Detail"
+    //                   >
+    //                     Visit
+    //                   </a>
+    //                 </div>
+    //               </div>
+    //             </div>
+    //           </div>
+    //         </div>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
   );
 };
