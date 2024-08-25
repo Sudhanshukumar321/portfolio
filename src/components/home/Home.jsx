@@ -49,14 +49,15 @@ export const Home = () => {
         <Container>
           <Row>
             <Col>
-            <Skills/>
+              <Skills />
             </Col>
           </Row>
         </Container>
       </section>
       <section className="projects">
-        <div className="projectHeading">
-          <div className="projectCardContainer">
+        <div className="projectContainer">
+          <h2 className="projectHeading">Work Experience & Education</h2>
+          <div className="w-100 h-100">
             <ProjectCard />
           </div>
         </div>

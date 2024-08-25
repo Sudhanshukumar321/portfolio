@@ -1,11 +1,9 @@
 .skills h2 {
-  font-weight: 800;
-  font-size: 2.5rem;
-  background: -webkit-linear-gradient(#eee, #333);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin-bottom: 2rem;
+  text-shadow: 2px 2px 6px red;
+  font-size: 2em;
+  font-weight: 900;
+  color: white;
+  margin-bottom: 2rem; 
 }
 .skills .item {
   width: 200px;
@@ -14,7 +12,7 @@
   border: none;
 }
 .skills .item:hover > .card {
-  cursor: pointer;
+  cursor: pointer; 
   transform: rotateY(180deg);
 }
 .skills .item .card {
@@ -71,4 +69,12 @@
 
 .react-multi-carousel-list {
   position: unset;
+}
+
+@media (max-width: 477px) {
+  .skills h2 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 0.5em 0;
+  }
 }
