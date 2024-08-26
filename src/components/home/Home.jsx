@@ -1,7 +1,7 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
 import { ProjectCard } from "../projectCard/ProjectCard";
-import { Footer } from "./Footer";
+// import { Footer } from "./Footer";
 
 import "./home.css";
 import { Skills } from "../skills/Skills";
@@ -60,9 +60,9 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className="homeFooter">
+      {/* <section className="homeFooter">
         <Footer />
-      </section>
+      </section> */}
     </div>
   );
 };

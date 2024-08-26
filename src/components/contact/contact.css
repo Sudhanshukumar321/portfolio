@@ -50,7 +50,7 @@
   .social ul li.call:hover {
     background-color: #55acee;
   }
-  .social ul li.google-plus:hover {
+  .social ul li.google-plus:hover{
     background-color: red;
   }
   .social ul li.instagram:hover {
@@ -83,12 +83,11 @@
     margin-left: 2px;
     color: #293462;
     background-color: white;
-    padding: 10px;
+    padding: 7px;
     border-radius: 50%;
     width: 40px;
     height: 40px;
     font-size: 20px;
-    /* transform: rotate(0deg); */
   }
   
   .social ul li:hover i svg{
