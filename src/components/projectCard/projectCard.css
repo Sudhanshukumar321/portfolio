@@ -71,13 +71,17 @@
   /* height: 100%;
   width: 100%; */
 }
-.projects .my-item-class {
+.projects .project-item-class {
   max-width: 400px;
   margin-right: 1rem;
 }
 @media (max-width: 477px) {
-  .projects .my-item-class {
+  .projects .project-item-class {
     margin-right: 0;
+    overflow: hidden;
+  }
+  .projects button{
+    display: none;
   }
 }
 

@@ -36,7 +36,7 @@ export const ProjectCard = () => {
       infinite={true}
       swipeable={true}
       draggable={true}
-      itemClass="my-item-class"
+      itemClass="project-item-class"
     >
       {projects.map((project) => {
         return (

@@ -75,9 +75,17 @@
 }
 
 @media (max-width: 477px) {
+  .skills .skills-item-class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .skills h2 {
     font-size: 2.5em;
     font-weight: 700;
     margin: 0.5em 0;
+  }
+  .skills  button{
+    display: none;
   }
 }

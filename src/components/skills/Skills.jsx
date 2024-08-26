@@ -31,6 +31,7 @@ export const Skills = () => {
        swipeable={true}
        draggable={true}
        infinite={true}
+       itemClass="skills-item-class"
        
       //  focusOnSelect={true}
       >
