@@ -7,3 +7,8 @@
     flex-direction: column;
     background-color: cyan;
 }
+@media(max-width: 477px){
+    .blog{
+        margin-top: 12vh;
+    }
+}

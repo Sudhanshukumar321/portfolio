@@ -1,8 +1,6 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import { achievements } from "./achievements";
 import { ProjectCard } from "../projectCard/ProjectCard";
-import { Testimonial } from "../testimonials/Testimonial";
 import { Footer } from "./Footer";
 
 import "./home.css";
@@ -38,15 +36,6 @@ export const Home = () => {
         </div>
       </section>
       <section className="achievements">
-        {/* {achievements.map((data, index) => {
-          return (
-            <div key={index} className="achieve">
-              <h1 className="icon">{data.icon}</h1>
-              <h1>{data.number}</h1>
-              <h2>{data.name}</h2>
-            </div>
-          );
-        })} */}
         <Container>
           <Row>
             <Col>
@@ -71,15 +60,6 @@ export const Home = () => {
           </div>
         </div>
       </section>
-      <section className="testimonials">
-        <div className="testimonialContainer">
-          <h1 className="testimonialHeading">#Testimonials</h1>
-          <div className="singlePeople">
-            <Testimonial />
-          </div>
-        </div>
-      </section>
-
       <section className="homeFooter">
         <Footer />
       </section>
