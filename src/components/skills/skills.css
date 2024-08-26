@@ -3,7 +3,7 @@
   font-size: 2em;
   font-weight: 900;
   color: white;
-  margin-bottom: 2rem; 
+  margin-bottom: 2rem;
 }
 .skills .item {
   width: 200px;
@@ -12,7 +12,7 @@
   border: none;
 }
 .skills .item:hover > .card {
-  cursor: pointer; 
+  cursor: pointer;
   transform: rotateY(180deg);
 }
 .skills .item .card {
@@ -24,22 +24,25 @@
   border: none;
   background: transparent;
 }
-.front,
-.back {
+.skills .front,
+.skills .back {
   border-radius: 1rem;
   /* box-shadow: 0 0 5px 2px rgba(50, 50, 50,0.25); */
   position: absolute;
   backface-visibility: hidden;
   height: 300px;
   width: 100%;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
-.front {
+.skills .front {
   display: flex;
   justify-content: center;
   align-items: start;
 }
-.back {
+.skills .back {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
   display: flex;
   justify-content: center;
   align-items: center;

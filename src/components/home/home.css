@@ -84,13 +84,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('/public/image/work-bg.jpg');
+    background-image: url('/public/image/project.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .projects .projectContainer{
-    width: 80%;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -98,6 +99,32 @@
     gap: 3rem;
 }
 .projects .projectContainer .projectHeading{
+    text-shadow: 2px 2px 6px red;
+    font-size: 2em;
+    font-weight: 900;
+    color:white;
+}
+.experience{
+    height:auto;
+    width: 100%;
+    padding:6rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/public/image/work-bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.experience .experienceContainer{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+}
+.experience .experienceContainer .experienceHeading{
     text-shadow: 2px 2px 6px red;
     font-size: 2em;
     font-weight: 900;
@@ -213,10 +240,14 @@
         font-weight: 700;
         margin: 0.5em 0;
     }
-    .projectCardContainer .projectCard {
-        width: 100%;
-        height: auto;
-        margin-bottom: 0.6em;
+    .experience {
+        padding: 6rem 1rem;
+        justify-content: flex-start;
+    }
+    .experience .experienceHeading h2 {
+        font-size: 2.5em;
+        font-weight: 700;
+        margin: 0.5em 0;
     }
     .testimonials .testimonialContainer .testimonialHeading {
         margin-bottom: 0.5em;

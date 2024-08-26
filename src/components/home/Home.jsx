@@ -8,6 +8,7 @@ import { Footer } from "./Footer";
 import "./home.css";
 import { Skills } from "../skills/Skills";
 import { Col, Container, Row } from "react-bootstrap";
+import { Experience } from "../experience/Experience";
 
 export const Home = () => {
   return (
@@ -54,15 +55,22 @@ export const Home = () => {
           </Row>
         </Container>
       </section>
+      <section className="experience">
+        <div className="experienceContainer">
+          <h2 className="experienceHeading">Experience & Education</h2>
+          <div className="w-100 h-100">
+            <Experience />
+          </div>
+        </div>
+      </section>
       <section className="projects">
         <div className="projectContainer">
-          <h2 className="projectHeading">Work Experience & Education</h2>
+          <h2 className="projectHeading">Projects</h2>
           <div className="w-100 h-100">
             <ProjectCard />
           </div>
         </div>
       </section>
-
       <section className="testimonials">
         <div className="testimonialContainer">
           <h1 className="testimonialHeading">#Testimonials</h1>
