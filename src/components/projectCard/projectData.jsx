@@ -30,7 +30,7 @@ export const projects = [
         image:'image/calculator.png',
         title:'Calculator',
         tools:["HTML","CSS","JS"],
-        source:"#",
+        source:"https://sudhanshukumar321.github.io/calculator/",
         description:'This is a simple Calculator in which you can do almost all basic operations such addition, subtraction, multiplication, division etc.',
     },
     {
@@ -38,7 +38,7 @@ export const projects = [
         image:'image/ecommerce.png',
         title:'E-Commerce',
         tools:[ "HTML","CSS","JS" ],
-        source:"#",
+        source:"https://sudhanshukumar321.github.io/E-Commerce/",
         description:'Ecommerce stands for “electronic commerce.” Ecommerce websites are built to connect shoppers to products or services for trading online. On the most basic level, they provide everything we need for online shopping.',
     },
     {
@@ -62,7 +62,7 @@ export const projects = [
         image:'image/translator.png',
         title:'Translator',
         tools:["Html","CSS","Js"],
-        source:"#",
+        source:"https://sudhanshu-translator.netlify.app/",
         description:'NA',
     },
 ];
