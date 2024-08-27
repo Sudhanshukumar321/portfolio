@@ -94,7 +94,7 @@ const Contact = () => {
         <nav class="social d-none d-lg-block ">
           <ul>
             <li class="call">
-              <a href="tel:+91 9711939395">
+              <a href="tel:+91 7739058330">
                 Call Us
                 <i>
                   <BiPhoneCall />
@@ -102,7 +102,7 @@ const Contact = () => {
               </a>
             </li>
             <li class="google-plus">
-              <a href="mailto:info@legaltax.in" target="_blank" rel="noreferrer">
+              <a href="sudhanshkush321@gmail.com" target="_blank" rel="noreferrer">
                 Mail
                 <i>
                   <HiOutlineMail />
@@ -142,7 +142,7 @@ const Contact = () => {
               </a> 
             </li>
             <li class="youtube"> 
-              <Link href="/" >
+              <Link href="https://www.youtube.com/@codetuber8734" target="_blank" rel="noreferrer" >
                 Youtube
                 <i>
                   <AiOutlineYoutube />
