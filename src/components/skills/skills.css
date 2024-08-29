@@ -23,6 +23,7 @@
   transform-style: preserve-3d;
   border: none;
   background: transparent;
+  
 }
 .skills .front,
 .skills .back {
@@ -47,6 +48,8 @@
   justify-content: center;
   align-items: center;
   transform: rotateY(180deg);
+  -webkit-box-shadow: #00000069 0px 0px 10px;
+  box-shadow:#00000069 0px 0px 10px;
 }
 
 .skills .item img {

@@ -107,7 +107,15 @@ export const Skills = () => {
             <div className="back ">back part</div>
           </div>
         </div>
-        
+        <div className="item">
+          <div className="card">
+            <div className="d-flex justify-content-start align-items-center flex-column front">
+              <img src="/image/wordpress.png" alt="wordpress" />
+              <h4>Wordpress</h4>
+            </div>
+            <div className="back ">back part</div>
+          </div>
+        </div>
       </Carousel>
     </div>
   );

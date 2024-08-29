@@ -23,7 +23,7 @@ function CollapsibleExample({ isLoggedIn, setIsLoggedIn }) {
             <NavLink to="/">Home</NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/contact">Contact Us</NavLink>
-            <NavLink to="/blog">Blog</NavLink>
+            <NavLink to="https://skgblog.onrender.com/" target='_blank'>Blog</NavLink>
              {!isLoggedIn && (<NavLink to="/signin">Login</NavLink> )}
              {!isLoggedIn && (<NavLink to="/signup">Sign up</NavLink> )}
              {isLoggedIn && (<NavLink to="/dashboard">Dashboard</NavLink> )}

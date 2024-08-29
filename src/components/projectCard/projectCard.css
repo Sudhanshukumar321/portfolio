@@ -49,6 +49,7 @@
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
+  
 }
 .main .projectCard .back a {
   text-decoration: none;
@@ -76,6 +77,7 @@
 .projects .project-item-class {
   max-width: 400px;
   margin-right: 1rem;
+  
 }
 @media (max-width: 477px) {
   .projects .project-item-class {
