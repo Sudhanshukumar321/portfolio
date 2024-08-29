@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { useState } from "react";
 import toast from "react-hot-toast";
+import { Hero } from "../Hero-Banner/Hero";
 
 export const SignUp = ({ setIsLoggedIn }) => {
   const navigate = useNavigate();
@@ -33,6 +34,7 @@ export const SignUp = ({ setIsLoggedIn }) => {
   };
   return (
     <div className="signup">
+        <Hero heading="#Let's join with us" desc="Create an Account, We love to see you"/>
       <div className="container-lg container-md  container-fluid">
         <div className="row">
           <div className="d-md-flex gap-4  justify-content-between align-content-center">

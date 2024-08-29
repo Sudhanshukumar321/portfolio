@@ -32,7 +32,7 @@ export const ProjectCard = () => {
   return (
     <Carousel
       responsive={responsive}
-      autoPlay={true}
+      // autoPlay={true}
       infinite={true}
       swipeable={true}
       draggable={true}
